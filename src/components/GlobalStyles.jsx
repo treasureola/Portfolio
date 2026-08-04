@@ -7,6 +7,7 @@ export default function GlobalStyles() {
       * { box-sizing: border-box; margin: 0; }
       html, body { overflow-x: hidden; }
       h1 { overflow-wrap: break-word; }
+      canvas { display: block; max-width: 100%; height: auto; }
       ::selection { background: ${theme.copper}; color: ${theme.bg}; }
       .mono { font-family: 'IBM Plex Mono', monospace; }
       .navlink { color: ${theme.muted}; text-decoration: none; font-size: 12px; letter-spacing: 0.08em; font-family: 'IBM Plex Mono', monospace; }
