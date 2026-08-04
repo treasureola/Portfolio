@@ -9,7 +9,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" style={{ maxWidth: 1180, margin: "0 auto", padding: "24px 28px 52px" }}>
+    <section id="skills" className="sect" style={{ maxWidth: 1180, margin: "0 auto", padding: "24px 28px 52px" }}>
       <p className="mono" style={{ color: theme.copper, fontSize: 12, letterSpacing: "0.16em", marginBottom: 24 }}>
         WHAT I WORK WITH
       </p>

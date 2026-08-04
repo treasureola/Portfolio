@@ -121,6 +121,7 @@ export default function NetworkCanvas() {
       const h = mount.clientHeight
       renderer.setSize(w, h)
       camera.aspect = w / h
+      camera.position.z = w < 520 ? 9.6 : 7.2
       camera.updateProjectionMatrix()
     }
     resize()
@@ -168,7 +169,7 @@ export default function NetworkCanvas() {
   return (
     <div
       ref={mountRef}
-      style={{ width: "100%", height: "100%", minHeight: 380 }}
+      style={{ width: "100%", height: "100%", display: "block" }}
       aria-label="Interactive 3D node network — drag to rotate"
     />
   )
