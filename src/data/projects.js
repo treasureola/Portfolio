@@ -1,9 +1,11 @@
 // TODO: swap in the real repo URLs — these are placeholders following
 // github.com/treasureola/<slug> until confirmed.
+export const CATEGORIES = ["AI / ML", "Frontend", "Systems", "Full-Stack"]
+
 export const projects = [
   {
     name: "Personal AI Agent",
-    tag: "AI",
+    cats: ["AI / ML", "Full-Stack"],
     status: "in-progress",
     description:
       "Autonomous personal agent built on the Claude API — tool use, task orchestration, and multi-step reasoning wired into everyday workflows.",
@@ -12,7 +14,7 @@ export const projects = [
   },
   {
     name: "Inside the Machine",
-    tag: "3D / INTERACTIVE",
+    cats: ["Frontend", "Full-Stack"],
     status: "complete",
     description:
       "A cinematic 3D museum exhibit built in Unity that teaches PC hardware — explore ten components on glowing pedestals, then assemble a virtual PC through an animated quiz with X-ray mode. All animation and interaction scripted from scratch in C#.",
@@ -21,7 +23,7 @@ export const projects = [
   },
   {
     name: "HouseMatch",
-    tag: "MACHINE LEARNING",
+    cats: ["AI / ML", "Full-Stack"],
     status: "complete",
     description:
       "Behavioral recommendation engine for housing matches. Built the recommender and live feedback loops that learn from user behavior over time.",
@@ -30,7 +32,7 @@ export const projects = [
   },
   {
     name: "ForgeOS",
-    tag: "SYSTEMS",
+    cats: ["Systems"],
     status: "in-progress",
     description:
       "A task scheduler written from scratch in C, implementing rate-monotonic and earliest-deadline-first scheduling with deadline-miss analysis.",
@@ -39,7 +41,7 @@ export const projects = [
   },
   {
     name: "Basic Machine Simulator",
-    tag: "COMPUTER ARCHITECTURE",
+    cats: ["Systems"],
     status: "complete",
     description:
       "A 16-bit computer built in software — two-pass assembler, CPU with a full fetch-decode-execute cycle, 2048-word memory, FIFO cache with hit/miss tracking, and a JavaFX front panel for stepping through programs.",

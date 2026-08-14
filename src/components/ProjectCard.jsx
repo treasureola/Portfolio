@@ -26,7 +26,7 @@ export default function ProjectCard({ project }) {
             letterSpacing: "0.12em",
           }}
         >
-          {project.tag}
+          {project.cats.join(" · ").toUpperCase()}
         </span>
         <span
           className="mono"
