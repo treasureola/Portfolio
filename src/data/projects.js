@@ -10,7 +10,7 @@ export const projects = [
     description:
       "Autonomous personal agent built on the Claude API — tool use, task orchestration, and multi-step reasoning wired into everyday workflows.",
     stack: ["Claude API", "Agents", "Python"],
-    githubUrl: "https://github.com/treasureola/personal-ai-agent",
+    githubUrl: "https://github.com/treasureola/personal_AI",
   },
   {
     name: "Inside the Machine",
@@ -19,7 +19,7 @@ export const projects = [
     description:
       "A cinematic 3D museum exhibit built in Unity that teaches PC hardware — explore ten components on glowing pedestals, then assemble a virtual PC through an animated quiz with X-ray mode. All animation and interaction scripted from scratch in C#.",
     stack: ["Unity 6", "C#", "URP", "UI/UX"],
-    githubUrl: "https://github.com/treasureola/inside-the-machine",
+    githubUrl: "https://github.com/treasureola/InsideTheMachine",
   },
   {
     name: "HouseMatch",
@@ -28,7 +28,7 @@ export const projects = [
     description:
       "Behavioral recommendation engine for housing matches. Built the recommender and live feedback loops that learn from user behavior over time.",
     stack: ["Python", "Recommenders", "Feedback loops"],
-    githubUrl: "https://github.com/treasureola/housematch",
+    githubUrl: "https://github.com/treasureola/HouseMatch",
   },
   {
     name: "ForgeOS",
@@ -37,7 +37,7 @@ export const projects = [
     description:
       "A task scheduler written from scratch in C, implementing rate-monotonic and earliest-deadline-first scheduling with deadline-miss analysis.",
     stack: ["C", "Scheduling", "Low-level"],
-    githubUrl: "https://github.com/treasureola/forgeos",
+    githubUrl: "https://github.com/treasureola/ForgeOS",
   },
   {
     name: "Basic Machine Simulator",
@@ -46,6 +46,6 @@ export const projects = [
     description:
       "A 16-bit computer built in software — two-pass assembler, CPU with a full fetch-decode-execute cycle, 2048-word memory, FIFO cache with hit/miss tracking, and a JavaFX front panel for stepping through programs.",
     stack: ["Java", "JavaFX", "Assembler", "Cache"],
-    githubUrl: "https://github.com/treasureola/basic-machine-simulator",
+    githubUrl: "https://github.com/treasureola/Assembler",
   },
 ]
